@@ -1,6 +1,7 @@
 import React from "react"
 import "./service-section.css"
 import Service from "./service/service"
+import { StaticQuery } from "gatsby";
 
 
 export default () => (
@@ -25,97 +26,31 @@ export default () => (
                   <Service serviceName={service.serviceName} serviceDescription={service.serviceDescription}/>
                 )
               })}
+              <StaticQuery
+                query={graphql`
+  {
+    allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "service-name"}}}) {
+      nodes {
+        frontmatter {
+          title
+          servicename
+          servicedescription
+        }
+      }
+    }
+  }
+`}
 
-                {/*<div className="col-lg-4">*/}
-                    {/*<div className="services_box p-3 mt-3">*/}
-                        {/*<div className="service_icon">*/}
-                            {/*<i className="mdi mdi-kodi"></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="service_content mt-3">*/}
-                            {/*<h5 className="">Graphic Design</h5>*/}
-                            {/*<div className="service_devider mt-3 "></div>*/}
-                            {/*<p className="mt-3 text-muted mb-0">Dummy text is also used to demonstrate the appearance of*/}
-                                {/*different typefaces and layouts, and in general the content. </p>*/}
-                        {/*</div>*/}
+                render={ (data) => {
+                  return data.allMarkdownRemark.nodes.map((val) => {
+                    console.log(val);
+                    return (
+                      <Service serviceName={val.frontmatter.servicename} serviceDescription={val.frontmatter.servicedescription}/>
+                    )
+                  })
 
-                    {/*</div>*/}
-                {/*</div>*/}
-
-                {/*<div className="col-lg-4">*/}
-                    {/*<div className="services_box p-3 mt-3">*/}
-                        {/*<div className="service_icon">*/}
-                            {/*<i className="mdi mdi-television"></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="service_content mt-3">*/}
-                            {/*<h5 className="">Graphic Design</h5>*/}
-                            {/*<div className="service_devider mt-3"></div>*/}
-                            {/*<p className="mt-3 text-muted mb-0">Dummy text is also used to demonstrate the appearance of*/}
-                                {/*different typefaces and layouts, and in general the content. </p>*/}
-                        {/*</div>*/}
-
-                    {/*</div>*/}
-                {/*</div>*/}
-
-                {/*<div className="col-lg-4">*/}
-                    {/*<div className="services_box p-3 mt-3">*/}
-                        {/*<div className="service_icon">*/}
-                            {/*<i className="mdi mdi-led-on"></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="service_content mt-3">*/}
-                            {/*<h5 className="">Graphic Design</h5>*/}
-                            {/*<div className="service_devider mt-3"></div>*/}
-                            {/*<p className="mt-3 text-muted mb-0">Dummy text is also used to demonstrate the appearance of*/}
-                                {/*different typefaces and layouts, and in general the content. </p>*/}
-                        {/*</div>*/}
-
-                    {/*</div>*/}
-                {/*</div>*/}
-            </div>
-            <div className="row mt-3">
-                {/*<div className="col-lg-4">*/}
-                    {/*<div className="services_box p-3 mt-3">*/}
-                        {/*<div className="service_icon">*/}
-                            {/*<i className="mdi mdi-meteor"></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="service_content mt-3">*/}
-                            {/*<h5 className="">Graphic Design</h5>*/}
-                            {/*<div className="service_devider mt-3"></div>*/}
-                            {/*<p className="mt-3 text-muted mb-0">Dummy text is also used to demonstrate the appearance of*/}
-                                {/*different typefaces and layouts, and in general the content. </p>*/}
-                        {/*</div>*/}
-
-                    {/*</div>*/}
-                {/*</div>*/}
-
-                {/*<div className="col-lg-4">*/}
-                    {/*<div className="services_box p-3 mt-3">*/}
-                        {/*<div className="service_icon">*/}
-                            {/*<i className="mdi mdi-ribbon"></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="service_content mt-3">*/}
-                            {/*<h5 className="">Graphic Design</h5>*/}
-                            {/*<div className="service_devider mt-3"></div>*/}
-                            {/*<p className="mt-3 text-muted mb-0">Dummy text is also used to demonstrate the appearance of*/}
-                                {/*different typefaces and layouts, and in general the content. </p>*/}
-                        {/*</div>*/}
-
-                    {/*</div>*/}
-                {/*</div>*/}
-
-                {/*<div className="col-lg-4">*/}
-                    {/*<div className="services_box p-3 mt-3">*/}
-                        {/*<div className="service_icon">*/}
-                            {/*<i className="mdi mdi-regex"></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="service_content mt-3">*/}
-                            {/*<h5 className="">Graphic Design</h5>*/}
-                            {/*<div className="service_devider mt-3"></div>*/}
-                            {/*<p className="mt-3 text-muted mb-0">Dummy text is also used to demonstrate the appearance of*/}
-                                {/*different typefaces and layouts, and in general the content. </p>*/}
-                        {/*</div>*/}
-
-                    {/*</div>*/}
-                {/*</div>*/}
+                } }
+              ></StaticQuery>
             </div>
         </div>
     </section>
