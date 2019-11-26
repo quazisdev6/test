@@ -38,6 +38,17 @@ collections:
       - {label: "Service Name", name: "servicename", widget: "string"}
       - {label: "Service Description", name: "servicedescription", widget: "text"}
 
+  - name: "client"
+    label: "Client"
+    folder: "src/pages/client-page"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "client-name"}
+    - {label: "Client Name", name: "clientname", widget: "string"}
+    - {label: "Client Description", name: "clientdescription", widget: "text"}
+
   - name: "pages"
     label: "Pages"
     files:
