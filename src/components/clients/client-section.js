@@ -1,6 +1,6 @@
 import React from "react"
 import "./client-section.css"
-
+import Client from "./client/client"
 
 export default () => (
     <section className="section_all" id="client">
@@ -19,51 +19,63 @@ export default () => (
             </div>
 
             <div className="row mt-5">
-                <div className="col-lg-4">
-                    <div className="landing_client_box mx-auto text-center mt-3">
-                        <div className="landing_client_img_box">
-                            <img src="images/client/client-1.jpg" alt=""
-                                 className="img-fluid mx-auto d-block rounded-circle"/>
-                        </div>
-                        <div className="landing_testi_desc mt-4">
-                            <p className="text-muted">Ut tincidunt ex a tempor congue, lacus magna pretium quam,
-                                penatibus et magnis dis parturient montes.</p>
-                            <p className="user-work mb-0">Donald Ramon - <span className="text-custom">Director</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              {testArray.map((client) => {
+                return (
+                  <Client clientName={client.clientName} clientDescription={client.clientDescription}/>
+                )
+              })}
 
-                <div className="col-lg-4">
-                    <div className="landing_client_box mx-auto text-center mt-3">
-                        <div className="landing_client_img_box">
-                            <img src="images/client/client-2.jpg" alt=""
-                                 className="img-fluid mx-auto d-block rounded-circle"/>
-                        </div>
-                        <div className="landing_testi_desc mt-4">
-                            <p className="text-muted">Ut tincidunt ex a tempor congue, lacus magna pretium quam,
-                                penatibus et magnis dis parturient montes.</p>
-                            <p className="user-work mb-0">Donald Ramon - <span className="text-custom">Director</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="col-lg-4">*/}
+                    {/*<div className="landing_client_box mx-auto text-center mt-3">*/}
+                        {/*<div className="landing_client_img_box">*/}
+                            {/*<img src="images/client/client-1.jpg" alt=""*/}
+                                 {/*className="img-fluid mx-auto d-block rounded-circle"/>*/}
+                        {/*</div>*/}
+                        {/*<div className="landing_testi_desc mt-4">*/}
+                            {/*<p className="text-muted">Ut tincidunt ex a tempor congue, lacus magna pretium quam,*/}
+                                {/*penatibus et magnis dis parturient montes.</p>*/}
+                            {/*<p className="user-work mb-0">Donald Ramon - <span className="text-custom">Director</span>*/}
+                            {/*</p>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
 
-                <div className="col-lg-4">
-                    <div className="landing_client_box mx-auto text-center mt-3">
-                        <div className="landing_client_img_box">
-                            <img src="images/client/client-3.jpg" alt=""
-                                 className="img-fluid mx-auto d-block rounded-circle"/>
-                        </div>
-                        <div className="landing_testi_desc mt-4">
-                            <p className="text-muted">Ut tincidunt ex a tempor congue, lacus magna pretium quam,
-                                penatibus et magnis dis parturient montes.</p>
-                            <p className="user-work mb-0">Donald Ramon - <span className="text-custom">Director</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="col-lg-4">*/}
+                    {/*<div className="landing_client_box mx-auto text-center mt-3">*/}
+                        {/*<div className="landing_client_img_box">*/}
+                            {/*<img src="images/client/client-2.jpg" alt=""*/}
+                                 {/*className="img-fluid mx-auto d-block rounded-circle"/>*/}
+                        {/*</div>*/}
+                        {/*<div className="landing_testi_desc mt-4">*/}
+                            {/*<p className="text-muted">Ut tincidunt ex a tempor congue, lacus magna pretium quam,*/}
+                                {/*penatibus et magnis dis parturient montes.</p>*/}
+                            {/*<p className="user-work mb-0">Donald Ramon - <span className="text-custom">Director</span>*/}
+                            {/*</p>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
+
+                {/*<div className="col-lg-4">*/}
+                    {/*<div className="landing_client_box mx-auto text-center mt-3">*/}
+                        {/*<div className="landing_client_img_box">*/}
+                            {/*<img src="images/client/client-3.jpg" alt=""*/}
+                                 {/*className="img-fluid mx-auto d-block rounded-circle"/>*/}
+                        {/*</div>*/}
+                        {/*<div className="landing_testi_desc mt-4">*/}
+                            {/*<p className="text-muted">Ut tincidunt ex a tempor congue, lacus magna pretium quam,*/}
+                                {/*penatibus et magnis dis parturient montes.</p>*/}
+                            {/*<p className="user-work mb-0">Donald Ramon - <span className="text-custom">Director</span>*/}
+                            {/*</p>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
             </div>
         </div>
     </section>
 )
+
+let testArray = [
+  {clientName: "Test name", clientDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
+  {clientName: "Test name", clientDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
+  {clientName: "Test name", clientDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"}
+]
