@@ -1,7 +1,9 @@
 ---
-title: testsfads
+title: Solution Architecture
 templateKey: service-name
-servicename: tet
-servicedescription: tetst
+servicename: Solution Architecture
+servicedescription: >-
+  Solution Architecture Solution Architecture Solution Architecture Solution
+  Architecture
 ---
 
