@@ -28,11 +28,11 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "service"
-      label: "Service"
-      folder: "src/pages/service-page"
-      create: true
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-      fields:
+    label: "Service"
+    folder: "src/pages/service-page"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-name"}
       - {label: "Service Name", name: "servicename", widget: "string"}
       - {label: "Service Description", name: "servicedescription", widget: "text"}
