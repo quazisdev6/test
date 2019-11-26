@@ -1,0 +1,84 @@
+/*====================
+   0.6 SERVICES
+=====================*/
+
+.business_services_boxes {
+    border-radius: 6px;
+}
+
+.business_services_boxes .business_services_icon i {
+    font-size: 26px;
+    color: #f52a50;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 35px;
+}
+
+.business_services_content p {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.services_desc_bus p {
+    max-width: 700px;
+}
+
+.service_color_1 {
+    background-color: #34C5B8;
+}
+
+.service_color_2 {
+    background-color: #5668F8;
+}
+
+.service_color_3 {
+    background-color: #ff5c79;
+}
+
+
+/*--------------------
+    LANDING SERVICE
+---------------------*/
+
+.services_box .service_icon i {
+    font-size: 42px;
+    color: #ff5c79;
+    text-align: center;
+}
+
+.services_box a {
+    color: #000;
+    outline: none !important;
+    transition: all 0.5s;
+}
+
+.services_box a:hover {
+    color: #0CBEFC;
+}
+
+.service_devider {
+    background-color: #ff5c79;
+    height: 2px;
+    width: 55px;
+}
+
+
+/*-------------------
+    SERVICES
+--------------------*/
+
+.personal_box_devision .service_icon i {
+    font-size: 34px;
+    background-color: #f52a50;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}

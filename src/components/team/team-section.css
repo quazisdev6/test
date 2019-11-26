@@ -1,0 +1,66 @@
+/*====================
+  12. TEAM
+=====================*/
+
+.business_team_box h5 {
+    font-size: 18px;
+}
+
+.business_team_box .buss_team_info {
+    padding: 12px 50px;
+}
+
+.business_team_box .business_team_social li a {
+    color: #888;
+    padding: 5px 10px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.business_team_box .business_team_social li:hover a {
+    border-color: #f52a50;
+    background: #f52a50;
+    color: #fff;
+}
+
+/*----------------------
+    LANDING TEAM
+------------------------*/
+
+.landing_team_box {
+    border: 1px solid #ededed;
+}
+
+.landing_team_box img {
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.landing_team_box .business_team_social li a {
+    color: #888;
+    padding: 5px 10px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+/*--------------------
+    MINIMAL TEAM
+--------------------*/
+
+.minimal_team_box img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.minimal_team_box .minimal_team_social li a {
+    color: #888;
+    padding: 5px 10px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.minimal_social_menu li a {
+    margin-top: 22px !important;
+    color: #000;
+    font-size: 12px;
+}

@@ -1,0 +1,63 @@
+/*=====================
+    18. CONTACT US
+======================*/
+
+.business_form_custom .form-control {
+    height: 50px;
+    font-size: 16px;
+    border-color: #eae7e7;
+}
+
+textarea.form-control {
+    height: auto !important;
+}
+
+.business_form_custom .form-control:focus {
+    border-color: #f52a50 !important;
+    box-shadow: none;
+    outline: 0;
+}
+
+.contact_details_content {
+    border-radius: 4px;
+}
+
+.contact_detail p {
+    overflow: hidden;
+}
+
+/*----------------------
+    LANDING CONTACT
+------------------------*/
+
+.landing_contact_title {
+    max-width: 400px;
+}
+
+.landing_form_custom {
+    box-shadow: 0 0 35px 1px #efefef;
+    padding: 30px;
+}
+
+/*-------------------
+  SOFTWARE CONTACT
+--------------------*/
+
+.soft_form_custom {
+    max-width: 700px;
+}
+
+/*-------------------
+ MINIMAL CONTACT US
+--------------------*/
+
+.minimal_contact_icon i {
+    font-size: 28px;
+    background: #f1f1f1;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50px;
+}

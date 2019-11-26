@@ -1,0 +1,144 @@
+/*==================
+    19.FOOTER
+====================*/
+
+.bg_footer {
+    background-color: #2e3234;
+}
+
+.buss_footer_menu_list li a {
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.buss_footer_menu_list li {
+    padding-bottom: 10px;
+}
+
+.footer_alt_cpy {
+    color: #6c757d;
+}
+
+.buss_icon_social_footer ul li a {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    line-height: 43px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 16px;
+}
+
+.buss_icon_social_footer ul li a:hover {
+    border: 2px solid #f52a50;
+    color: #FFF;
+}
+
+.business_footer_logo img, .minimal_footer_logo img, .footer_logo_software img {
+    max-width: 150px;
+}
+
+/*---------------------
+    LANDING FOOTER
+----------------------*/
+
+.footer_menu_list li a {
+    color: #6c757d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer_menu_list li::after {
+    content: "|";
+    margin: 0 8px;
+    color: #6c757d;
+}
+
+.footer_menu_list li:last-child:after {
+    content: "";
+    margin: 0px;
+}
+
+.footer_alt_cpy,
+.text-footer {
+    color: #6c757d;
+}
+
+.subcribe_newslatter_footer input {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 16px;
+    color: #000 !important;
+    border: none;
+    outline: none !important;
+    padding-right: 150px;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 2px solid #e0e0e0;
+}
+
+.subcribe_newslatter_footer button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 9px 30px;
+}
+
+.subcribe_newslatter_footer form {
+    max-width: 600px;
+}
+
+.footer_social_icons li a {
+    border: 2px solid #6c757d;
+    color: #6c757d;
+    border-radius: 50%;
+    transition: all 0.5s;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer_social_icons li a:hover {
+    color: #fff;
+    background-color: #f52a50;
+    border: 2px solid #f52a50;
+}
+
+/*--------------------
+    FOOTER APP
+---------------------*/
+
+
+.contact_details_content {
+    border-radius: 4px;
+}
+
+.contact_details_content .contact_icon i {
+    font-size: 18px;
+}
+
+.contact_detail p {
+    overflow: hidden;
+}
+
+/*---------------------
+    MINIMAL FOOTER
+----------------------*/
+
+.minimal_footer_header h5 {
+    letter-spacing: 2px;
+}
+
+.minimal_header_desc {
+    max-width: 450px;
+}
+

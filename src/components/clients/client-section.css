@@ -1,0 +1,29 @@
+/*----------------------
+   CLIENTS
+-----------------------*/
+
+.landing_client_box {
+    max-width: 750px;
+}
+
+.landing_client_box .landing_client_img_box img {
+    max-width: 80px;
+}
+
+.landing_client_box span {
+    font-size: 14px;
+}
+
+.landing_testi_desc {
+    padding: 22px 30px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.landing_testi_desc p {
+    line-height: 1.6;
+}
+
+.user-work {
+    font-weight: 500;
+}

@@ -1,0 +1,42 @@
+/*================
+    04.HOME-SECTION
+==================*/
+
+.bg_home_cover {
+    /*background-image: url(../images/t_bg_3.png);*/
+    background-color: #222335;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home_title {
+    font-size: 50px;
+    line-height: 1.2;
+    max-width: 600px;
+}
+
+.home_subtitle {
+    color: #dadada;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+.home_table_cell_center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home_table_cell {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.full_height_100vh_home {
+    height: 100vh;
+}
+
+.up-index {
+    z-index: 2;
+}
+
