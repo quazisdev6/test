@@ -21,11 +21,11 @@ export default () => (
             </div>
 
             <div className="row mt-5">
-              {testArray.map((service) => {
-                return (
-                  <Service serviceName={service.serviceName} serviceDescription={service.serviceDescription}/>
-                )
-              })}
+              {/*{testArray.map((service) => {*/}
+                {/*return (*/}
+                  {/*<Service serviceName={service.serviceName} serviceDescription={service.serviceDescription}/>*/}
+                {/*)*/}
+              {/*})}*/}
               <StaticQuery
                 query={graphql`
   {
