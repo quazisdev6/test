@@ -11,14 +11,16 @@ import Footer from "../components/footer/footer"
 
 export default ({data}) => {
   console.log(data);
+  const {clientblurb, serviceblurb, teamblurb} = data.allMarkdownRemark.nodes[0].frontmatter;
+  console.log(clientblurb, serviceblurb, teamblurb);
 
   return (
     <div>
       <Nav/>
       <HomeSection/>
-      <ServiceSection/>
-      <ClientSection/>
-      <TeamSection/>
+      <ServiceSection serviceBlurb={serviceblurb}/>
+      <ClientSection clientBlurb={clientblurb}/>
+      <TeamSection teamBlurb={teamblurb}/>
       <ContactSection/>
       <Footer/>
     </div>
@@ -26,10 +28,14 @@ export default ({data}) => {
 }
 
 export const query = graphql`
-  query Test{
-    site {
-      siteMetadata {
-        title,
+  {
+    allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "index-page"}}}) {
+      nodes {
+        frontmatter {
+          serviceblurb
+          teamblurb
+          clientblurb
+        }
       }
     }
   }

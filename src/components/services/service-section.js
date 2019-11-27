@@ -4,7 +4,7 @@ import Service from "./service/service"
 import { StaticQuery } from "gatsby";
 
 
-export default () => (
+export default (props) => (
     <section className="section_all bg-light" id="services">
         <div className="container">
             <div className="row">
@@ -14,8 +14,7 @@ export default () => (
                             <i className="mdi mdi-crown"></i>
                         </div>
                         <h3 className="mt-3">Our Best <span className="text_custom"> Service </span></h3>
-                        <p className="section_subtitle mx-auto text-muted">It is a long established fact that a reader
-                            will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p className="section_subtitle mx-auto text-muted">{props.serviceBlurb}</p>
                     </div>
                 </div>
             </div>

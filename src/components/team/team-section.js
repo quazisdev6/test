@@ -3,7 +3,7 @@ import "./team-section.css"
 import TeamMember from "./team-member/team-member"
 import { StaticQuery } from "gatsby";
 
-export default () => (
+export default (props) => (
     <section className="section_all" id="team">
         <div className="container">
             <div className="row">
@@ -13,8 +13,7 @@ export default () => (
                             <i className="mdi mdi-biohazard"></i>
                         </div>
                         <h3 className="mt-3">Our Creative <span className="text_custom"> Team </span></h3>
-                        <p className="section_subtitle mx-auto text-muted">It is a long established fact that a reader
-                            will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p className="section_subtitle mx-auto text-muted">{props.teamBlurb}</p>
                     </div>
                 </div>
             </div>
