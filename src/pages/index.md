@@ -67,4 +67,14 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+serviceblurb: >-
+  It is a long established fact that a reader will be distracted by the readable
+  content of a page when looking at its layout.
+clientblurb: >-
+  It is a long established fact that a reader will be distracted by the readable
+  content of a page when looking at its layout.
+teamblurb: >-
+  It is a long established fact that a reader will be distracted by the readable
+  content of a page when looking at its layout.
 ---
+
