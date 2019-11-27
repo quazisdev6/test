@@ -49,6 +49,18 @@ collections:
     - {label: "Client Name", name: "clientname", widget: "string"}
     - {label: "Client Description", name: "clientdescription", widget: "text"}
 
+  - name: "team"
+    label: "Team"
+    folder: "src/pages/team-page"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-name"}
+    - {label: "Team Member Name", name: "membername", widget: "string"}
+    - {label: "Team Member Title", name: "membertitle", widget: "text"}
+    - {label: "Team Member Description", name: "memberdescription", widget: "text"}
+
   - name: "pages"
     label: "Pages"
     files:
