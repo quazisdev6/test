@@ -76,9 +76,13 @@ clientblurb: >-
 teamblurb: >-
   It is a long established fact that a reader will be distracted by the readable
   content of a page when looking at its layout.
+contactblurb: >-
+  It is a long established fact that a reader will be distracted by the readable
+  content of a page when looking at its layout.
 contactheading: Contact Info
 contactsubheading: Hello What's On Your Mind
 contactemail: Support@info.com
+contactphone: 789 7069 5656
 contactaddresslineone: '1651 Linda Street Eagleville, '
 contactaddresslinetwo: 'California,91752.'
 ---
