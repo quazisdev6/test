@@ -82,9 +82,11 @@ collections:
           - {label: "Services Blurb", name: "serviceblurb", widget: string}
           - {label: "Client Blurb", name: "clientblurb", widget: string}
           - {label: "Team Blurb", name: "teamblurb", widget: string}
+          - {label: "Contact Blurb", name: "contactblurb", widget: string}
           - {label: "Contact Heading", name: "contactheading", widget: string}
           - {label: "Contact Sub Heading", name: "contactsubheading", widget: string}
           - {label: "Contact Email", name: "contactemail", widget: string}
+          - {label: "Contact Phone", name: "contactphone", widget: string}
           - {label: "Contact Address First Line", name: "contactaddresslineone", widget: string}
           - {label: "Contact Address Second Line", name: "contactaddresslinetwo", widget: string}
       - file: "src/pages/about/index.md"
