@@ -45,6 +45,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
     - {label: "Title", name: "title", widget: "string"}
+    - {label: Image, name: image, widget: image}
     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "client-name"}
     - {label: "Client Name", name: "clientname", widget: "string"}
     - {label: "Client Description", name: "clientdescription", widget: "text"}
