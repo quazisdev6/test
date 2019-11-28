@@ -10,7 +10,7 @@ export default (props) => (
                 <div className="col-lg-12">
                     <div className="section_title_all text-center">
                         <div className="section_icons">
-                            <i className="mdi mdi-biohazard"></i>
+                            <i className="mdi mdi-account-multiple"></i>
                         </div>
                         <h3 className="mt-3">Our Creative <span className="text_custom"> Team </span></h3>
                         <p className="section_subtitle mx-auto text-muted">{props.teamBlurb}</p>
@@ -33,7 +33,7 @@ export default (props) => (
         frontmatter {
           image {
             childImageSharp {
-              resize(width: 100, height: 100) {
+              resize(width: 400, height: 400) {
                 src
                 tracedSVG
                 width
