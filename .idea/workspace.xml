@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f6729ea6-66b9-47b8-926e-4c320152f637" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact-us/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-us/contact-us.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,7 +56,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3" />
-          <entry key="js" value="1561" />
+          <entry key="js" value="1647" />
           <entry key="md" value="52" />
           <entry key="sass" value="8" />
           <entry key="yml" value="515" />
@@ -65,7 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="JavaScript" value="1561" />
+          <entry key="JavaScript" value="1647" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="Sass" value="8" />
           <entry key="YAML" value="515" />
@@ -87,29 +87,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/team/team-section.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="88" column="74" lean-forward="true" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="95" column="48" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/contact-us/contact-us.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="487">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -241,6 +238,7 @@
         <option value="$PROJECT_DIR$/src/components/clients/client-section.js" />
         <option value="$PROJECT_DIR$/src/components/team/team-section.js" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/src/components/contact-us/contact-us.js" />
       </list>
     </option>
   </component>
@@ -361,7 +359,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="conta&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;conf&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;teams&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;confi&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;team&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;nav&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/nav/nav.js&#10;inde&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/index.js&#10;eam&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;client&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;sec&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;clien&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;ser&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;servic&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;con&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;serv&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;cms&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/cms/cms.js&#10;service&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;index.ht&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/blog/index.html&#10;config.y&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/admin/config.yml&#10;config.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/.dependabot/config.yml&#10;index.js&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/blog/index.js&#10;pack&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="contac&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;conta&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;conf&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;teams&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;confi&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;team&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;nav&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/nav/nav.js&#10;inde&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/index.js&#10;eam&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;client&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;sec&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;clien&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;ser&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;servic&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;con&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;serv&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;cms&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/cms/cms.js&#10;service&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;index.ht&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/blog/index.html&#10;config.y&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/admin/config.yml&#10;config.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/.dependabot/config.yml&#10;index.js&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/blog/index.js&#10;pack&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -409,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25651000" />
+    <option name="totallyTimeSpent" value="26606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -773,30 +771,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="95" column="48" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/team/team-section.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contact-us/contact-us.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="487">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="88" column="74" lean-forward="true" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
         </state>
       </provider>
     </entry>
