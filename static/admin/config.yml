@@ -58,6 +58,7 @@ collections:
     fields:
     - {label: "Title", name: "title", widget: "string"}
     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-name"}
+    - {label: Image, name: image, widget: image}
     - {label: "Team Member Name", name: "membername", widget: "string"}
     - {label: "Team Member Title", name: "membertitle", widget: "text"}
     - {label: "Team Member Description", name: "memberdescription", widget: "text"}

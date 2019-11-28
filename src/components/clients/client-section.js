@@ -30,6 +30,18 @@ export default (props) => (
     allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "client-name"}}}) {
       nodes {
         frontmatter {
+          image {
+            childImageSharp {
+              resize(width: 100, height: 100) {
+                src
+                tracedSVG
+                width
+                height
+                aspectRatio
+                originalName
+              }
+            }
+          }
           title
           clientname
           clientdescription
@@ -43,7 +55,10 @@ export default (props) => (
                   return data.allMarkdownRemark.nodes.map((val) => {
                     console.log(val);
                     return (
-                      <Client clientName={val.frontmatter.clientname} clientDescription={val.frontmatter.clientdescription}/>
+                      <Client imgSrc={val.frontmatter.image ? val.frontmatter.image.childImageSharp.resize.src : ""}
+                              clientName={val.frontmatter.clientname}
+                              clientDescription={val.frontmatter.clientdescription}
+                      />
                     )
                   })
 

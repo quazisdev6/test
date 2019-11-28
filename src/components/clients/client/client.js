@@ -6,7 +6,7 @@ export default (props) => (
   <div className="col-lg-4">
     <div className="landing_client_box mx-auto text-center mt-3">
       <div className="landing_client_img_box">
-        <img src="images/client/client-3.jpg" alt=""
+        <img src={props.imgSrc} alt=""
              className="img-fluid mx-auto d-block rounded-circle"/>
       </div>
       <div className="landing_testi_desc mt-4">

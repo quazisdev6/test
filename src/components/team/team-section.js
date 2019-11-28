@@ -31,6 +31,18 @@ export default (props) => (
     allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "team-name"}}}) {
       nodes {
         frontmatter {
+          image {
+            childImageSharp {
+              resize(width: 100, height: 100) {
+                src
+                tracedSVG
+                width
+                height
+                aspectRatio
+                originalName
+              }
+            }
+          }
           membername
           membertitle
           memberdescription
@@ -44,7 +56,8 @@ export default (props) => (
                   return data.allMarkdownRemark.nodes.map((val) => {
                     console.log(val);
                     return (
-                      <TeamMember name={val.frontmatter.membername}
+                      <TeamMember imgSrc={val.frontmatter.image ? val.frontmatter.image.childImageSharp.resize.src : ""}
+                                  name={val.frontmatter.membername}
                                   title={val.frontmatter.membertitle}
                                   description={val.frontmatter.memberdescription}
                       />
