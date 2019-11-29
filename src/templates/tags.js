@@ -22,6 +22,16 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
+        <h1
+          className="has-text-weight-bold is-size-1"
+          style={{
+            backgroundColor: '#212529',
+            color: 'white',
+            padding: '1rem',
+          }}
+        >
+          Latest Stories
+        </h1>
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">

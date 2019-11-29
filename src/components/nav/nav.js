@@ -1,7 +1,7 @@
 import React from "react"
 import "./nav.css"
 import { Helmet } from 'react-helmet'
-import { withPrefix } from "gatsby"
+import { Link, withPrefix } from "gatsby";
 
 
 export default () => (
@@ -30,20 +30,25 @@ export default () => (
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav mx-auto">
-                    <li className="nav-item active">
-                        <a href="#home" className="nav-link">Home</a>
+                    <li className="nav-item">
+                        <a href="/#home" className="nav-link">Home</a>
+                      <Link className="nav-link" to="/#services"></Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#services" className="nav-link">Services</a>
+                        {/*<a href="/#services" className="nav-link">Services</a>*/}
+                      <Link className="nav-link" to="/#services">Services</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#client" className="nav-link">Clients</a>
+                        {/*<a href="/#client" className="nav-link">Clients</a>*/}
+                      <Link className="nav-link" to="/#client">Clients</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#team" className="nav-link">Team</a>
+                        {/*<a href="/#team" className="nav-link">Team</a>*/}
+                        <Link className="nav-link" to="/#team">Team</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact" className="nav-link">Contact</a>
+                        {/*<a href="/#contact" className="nav-link">Contact</a>*/}
+                        <Link className="nav-link" to="/#contact">Contact</Link>
                     </li>
                 </ul>
             </div>
