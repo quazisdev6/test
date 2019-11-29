@@ -91,7 +91,9 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Hero Image, name: image, widget: image}
+          - {label: Hero Image, name: heroimage, widget: image}
+          - {label: Logo Light, name: logolight, widget: image}
+          - {label: Logo Dark, name: logodark, widget: image}
           - {label: Hero Text, name: heading, widget: string}
           - {label: "Services Blurb", name: "serviceblurb", widget: string}
           - {label: "Client Blurb", name: "clientblurb", widget: string}

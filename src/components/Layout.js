@@ -23,13 +23,13 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          href={`${withPrefix('/')}img/dca-favicon.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          href={`${withPrefix('/')}img/dca-favicon.png`}
           sizes="16x16"
         />
 
@@ -48,8 +48,8 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      {/*<Navbar />*/}
       <Nav/>
+      <img src="/static/img/DCA31.png" alt="" className="img-fluid logo-light" />
       <div>{children}</div>
       <Footer />
     </div>

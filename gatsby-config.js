@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'DCA Group',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'DCA Group specializes in solution & integration architecture consulting, software design and development.  The architecture is practical – i.e. followed through the design and implementation phases.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,6 +13,18 @@ module.exports = {
       options: {
         path: `${__dirname}/static/img`,
         name: 'uploads',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#4e4f5d`,
+        display: `standalone`,
+        icon: `${__dirname}/static/img/dca-favicon.png`
       },
     },
     {

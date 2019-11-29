@@ -5,17 +5,7 @@ import "../styles/global.css";
 
 const NotFoundPage = () => (
   <Layout>
-    <h1
-      className="has-text-weight-bold is-size-1 page-name"
-      style={{
-        backgroundColor: '#4e4f5d',
-        color: 'white',
-        padding: '1rem',
-        height: '4.75rem'
-      }}
-    >Not Found
-    </h1>
-    <section className="bg_home_cover_landing full_height_100vh_home" id="home">
+    <section className="bg_home_cover_landing full_height_100vh_home">
       <div className="bg_overlay_cover_on_landing" />
       <div className="home_table_cell">
         <div className="home_table_cell_center">

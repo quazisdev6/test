@@ -21,9 +21,9 @@ export default () => (
               <script src={withPrefix('custom.js')} type="text/javascript" />
             </Helmet>
             {/* LOGO */}
-            <a className="navbar-brand logo" href="index.html">
-                <img src="images/logo-2.png" alt="" className="img-fluid logo-light" />
-                <img src="images/logo-dark.png" alt="" className="img-fluid logo-dark" />
+            <a className="navbar-brand logo" href="/">
+                <img src={`${withPrefix('/')}img/DCA31.png`} alt="" className="img-fluid logo-light" />
+                <img src={`${withPrefix('/')}img/DCA31.png`} alt="" className="img-fluid logo-dark" />
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="mdi mdi-menu" />
