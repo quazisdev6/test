@@ -190,7 +190,7 @@ p {
 .btn_outline:focus,
 .btn_outline:hover,
 .open > .dropdown-toggle.btn_outline {
-    background-color: #f52a50;
+    background-color: #f2395c;
     border-color: #f52a50;
     color: #ffffff;
 }

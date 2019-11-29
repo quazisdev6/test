@@ -12,12 +12,6 @@ export default () => (
                         <div className="col-lg-12">
                             <div className="text-center">
                                 <h1 className="home_title_landing text-white mx-auto text-capitalize mb-0 pt-3">Practical Architecture, Predictable Results</h1>
-                                {/* <div class="home_text_details">
-                                        <p class="home_subtitle mt-4 mb-0 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout readable English.</p>
-                                    </div> */}
-                                {/* <div class="home_btn_manage mt-4 pt-3">
-                                        <a href="#" class="btn btn_custom btn_rounded mr-3">Get Started</a>
-                                    </div> */}
                             </div>
                         </div>
                     </div>

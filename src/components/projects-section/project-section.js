@@ -1,7 +1,7 @@
 import React from "react"
 import "./project-section.css"
 import Project from "./project/project"
-import { StaticQuery } from "gatsby"
+import { Link, StaticQuery } from "gatsby";
 
 export default (props) => (
     <section className="section_all" id="client">
@@ -19,11 +19,6 @@ export default (props) => (
             </div>
 
             <div className="row mt-5">
-              {/*{testArray.map((client) => {*/}
-                {/*return (*/}
-                  {/*<Client clientName={client.clientName} clientDescription={client.clientDescription}/>*/}
-                {/*)*/}
-              {/*})}*/}
               <StaticQuery
                 query={graphql`
   {
@@ -65,12 +60,14 @@ export default (props) => (
                 } }
               ></StaticQuery>
             </div>
+            <div className="row mt-3">
+              <div className="col-lg-12">
+                <div className="section_title_all text-center">
+                  <Link className="btn btn_custom" to="/projects">More Projects</Link>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
 )
 
-let testArray = [
-  {clientName: "Test name", clientDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {clientName: "Test name", clientDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {clientName: "Test name", clientDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"}
-]

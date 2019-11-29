@@ -1,7 +1,7 @@
 import React from "react"
 import "./service-section.css"
 import Service from "./service/service"
-import { StaticQuery } from "gatsby";
+import { Link, StaticQuery } from "gatsby";
 
 
 export default (props) => (
@@ -51,15 +51,14 @@ export default (props) => (
                 } }
               ></StaticQuery>
             </div>
+          <div className="row mt-3">
+            <div className="col-lg-12">
+              <div className="section_title_all text-center">
+                <Link className="btn btn_custom" to="/services">More Services</Link>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
 )
 
-let testArray = [
-  {serviceName: "Test name", serviceDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {serviceName: "Test name", serviceDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {serviceName: "Test name", serviceDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {serviceName: "Test name", serviceDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {serviceName: "Test name", serviceDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-  {serviceName: "Test name", serviceDescription: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"}
-]
