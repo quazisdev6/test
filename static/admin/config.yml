@@ -38,6 +38,17 @@ collections:
       - {label: "Service Name", name: "servicename", widget: "string"}
       - {label: "Service Description", name: "servicedescription", widget: "text"}
 
+  - name: "services"
+      label: "Services Page (Elaborate)"
+      folder: "src/pages/services"
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "client"
     label: "Client"
     folder: "src/pages/client-page"
