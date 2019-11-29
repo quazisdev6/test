@@ -7,7 +7,7 @@ import { Link, withPrefix } from "gatsby";
 export default () => (
 
     <nav className="navbar navbar-expand-lg fixed-top custom_nav_menu sticky">
-        <div className="container custom-margin">
+        <div className="container">
             <Helmet>
               <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

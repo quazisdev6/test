@@ -21,11 +21,10 @@ export const ServicePostTemplate = ({
     <section className="section">
       {helmet || ''}
       <h1
-        className="has-text-weight-bold is-size-1 page-name"
+        className="has-text-weight-bold is-size-1"
         style={{
           backgroundColor: '#212529',
-          color: 'white',
-          padding: '1rem',
+          color: 'white'
         }}
       >
         Service
