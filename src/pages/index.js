@@ -5,13 +5,15 @@ import HomeSection from "../components/home-section/home-section"
 import ServiceSection from "../components/services/service-section"
 import ClientSection from "../components/clients/client-section"
 import TeamSection from "../components/team/team-section"
+import ProjectSection from "../components/projects-section/project-section"
 import ContactSection from "../components/contact-us/contact-us"
 import Footer from "../components/footer/footer"
 
 
+
 export default ({data}) => {
   console.log(data);
-  const {clientblurb, serviceblurb, teamblurb} = data.allMarkdownRemark.nodes[0].frontmatter;
+  const {clientblurb, serviceblurb, teamblurb, projectblurb} = data.allMarkdownRemark.nodes[0].frontmatter;
   console.log(clientblurb, serviceblurb, teamblurb);
 
   return (
@@ -19,6 +21,7 @@ export default ({data}) => {
       <Nav/>
       <HomeSection/>
       <ServiceSection serviceBlurb={serviceblurb}/>
+      <ProjectSection projectBlurb={projectblurb}/>
       <ClientSection clientBlurb={clientblurb}/>
       <TeamSection teamBlurb={teamblurb}/>
       <ContactSection/>
@@ -35,6 +38,7 @@ export const query = graphql`
           serviceblurb
           teamblurb
           clientblurb
+          projectblurb
         }
       }
     }
