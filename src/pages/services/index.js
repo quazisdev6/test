@@ -18,7 +18,7 @@ export default class ServiceIndexPage extends React.Component {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              padding: '1rem',
+              padding: '1rem'
             }}
           >
             Services

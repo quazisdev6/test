@@ -4,7 +4,7 @@ import Project from "./project/project"
 import { Link, StaticQuery } from "gatsby";
 
 export default (props) => (
-    <section className="section_all" id="client">
+    <section className="section_all" id="project">
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">

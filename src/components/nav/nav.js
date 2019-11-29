@@ -78,8 +78,10 @@ export default () => (
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a href="/#home" className="nav-link">Home</a>
-                      <Link className="nav-link" to="/#services"></Link>
+                      <Link className="nav-link" to="/">Home</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/#project">Projects</Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/#services">Services</Link>
