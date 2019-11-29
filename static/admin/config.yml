@@ -49,6 +49,17 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
     - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "projects"
+    label: "Projects Page (Elaborate)"
+    folder: "src/pages/projects"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "client"
     label: "Client"
     folder: "src/pages/client-page"
