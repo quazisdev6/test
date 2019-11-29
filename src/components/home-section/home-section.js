@@ -11,7 +11,7 @@ export default () => {
     allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "index-page"}}}) {
       nodes {
         frontmatter {
-          image {
+          heroimage {
             childImageSharp {
               resize(width: 2000, height: 1333) {
                 src
@@ -37,7 +37,7 @@ export default () => {
       return data.allMarkdownRemark.nodes.map((val) => {
         console.log(val);
         const customStyle ={
-          backgroundImage: `url(${val.frontmatter.image ? val.frontmatter.image.childImageSharp.resize.src : ""})`
+          backgroundImage: `url(${val.frontmatter.heroimage ? val.frontmatter.heroimage.childImageSharp.resize.src : ""})`
         }
         return (
           <section

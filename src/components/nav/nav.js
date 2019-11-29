@@ -1,7 +1,8 @@
 import React from "react"
 import "./nav.css"
 import { Helmet } from 'react-helmet'
-import { Link, withPrefix } from "gatsby";
+import { Link, StaticQuery, withPrefix } from "gatsby";
+import Project from "../projects-section/project/project";
 
 
 export default () => (
@@ -21,10 +22,56 @@ export default () => (
               <script src={withPrefix('custom.js')} type="text/javascript" />
             </Helmet>
             {/* LOGO */}
-            <a className="navbar-brand logo" href="/">
-                <img src={`${withPrefix('/')}img/DCA31.png`} alt="" className="img-fluid logo-light" />
-                <img src={`${withPrefix('/')}img/DCA31.png`} alt="" className="img-fluid logo-dark" />
-            </a>
+
+          <StaticQuery
+            query={graphql`
+  {
+    allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "index-page"}}}) {
+      nodes {
+        frontmatter {
+          logolight {
+            childImageSharp {
+              resize(width: 200, height: 80) {
+                src
+                tracedSVG
+                width
+                height
+                aspectRatio
+                originalName
+              }
+            }
+          }
+          logodark {
+            childImageSharp {
+              resize(width: 200, height: 80) {
+                src
+                tracedSVG
+                width
+                height
+                aspectRatio
+                originalName
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`}
+
+            render={ (data) => {
+              return data.allMarkdownRemark.nodes.map((val) => {
+                console.log(val);
+                return (
+                  <a className="navbar-brand logo" href="/">
+                    <img src={val.frontmatter.logolight ? val.frontmatter.logolight.childImageSharp.resize.src : ""} alt="" className="img-fluid logo-light" />
+                    <img src={val.frontmatter.logodark ? val.frontmatter.logodark.childImageSharp.resize.src : ""} alt="" className="img-fluid logo-dark" />
+                  </a>
+                )
+              })
+
+            } }
+          ></StaticQuery>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="mdi mdi-menu" />
             </button>
