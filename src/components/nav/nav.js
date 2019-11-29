@@ -7,7 +7,7 @@ import { Link, withPrefix } from "gatsby";
 export default () => (
 
     <nav className="navbar navbar-expand-lg fixed-top custom_nav_menu sticky">
-        <div className="container">
+        <div className="container custom-margin">
             <Helmet>
               <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -35,19 +35,15 @@ export default () => (
                       <Link className="nav-link" to="/#services"></Link>
                     </li>
                     <li className="nav-item">
-                        {/*<a href="/#services" className="nav-link">Services</a>*/}
                       <Link className="nav-link" to="/#services">Services</Link>
                     </li>
                     <li className="nav-item">
-                        {/*<a href="/#client" className="nav-link">Clients</a>*/}
                       <Link className="nav-link" to="/#client">Clients</Link>
                     </li>
                     <li className="nav-item">
-                        {/*<a href="/#team" className="nav-link">Team</a>*/}
                         <Link className="nav-link" to="/#team">Team</Link>
                     </li>
                     <li className="nav-item">
-                        {/*<a href="/#contact" className="nav-link">Contact</a>*/}
                         <Link className="nav-link" to="/#contact">Contact</Link>
                     </li>
                 </ul>

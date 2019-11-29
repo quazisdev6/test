@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import "../styles/global.css"
 
 class TagRoute extends React.Component {
   render() {
@@ -23,14 +24,14 @@ class TagRoute extends React.Component {
     return (
       <Layout>
         <h1
-          className="has-text-weight-bold is-size-1"
+          className="has-text-weight-bold is-size-1 page-name"
           style={{
             backgroundColor: '#212529',
             color: 'white',
             padding: '1rem',
           }}
         >
-          Latest Stories
+          Search
         </h1>
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
@@ -42,9 +43,6 @@ class TagRoute extends React.Component {
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">Browse all tags</Link>
-                </p>
               </div>
             </div>
           </div>

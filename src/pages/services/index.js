@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import ServiceRoll from '../../components/ServiceRoll'
+import "../../styles/global.css"
 
 export default class ServiceIndexPage extends React.Component {
   render() {
@@ -13,14 +14,14 @@ export default class ServiceIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
+            className="has-text-weight-bold is-size-1 page-name"
             style={{
               backgroundColor: '#212529',
               color: 'white',
               padding: '1rem',
             }}
           >
-            Latest Stories
+            Services
           </h1>
         </div>
         <section className="section">

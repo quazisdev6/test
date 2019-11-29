@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import "../styles/global.css"
 
 export const ProjectPostTemplate = ({
                                       content,
@@ -20,14 +21,14 @@ export const ProjectPostTemplate = ({
     <section className="section">
       {helmet || ''}
       <h1
-        className="has-text-weight-bold is-size-1"
+        className="has-text-weight-bold is-size-1 page-name"
         style={{
           backgroundColor: '#212529',
           color: 'white',
           padding: '1rem',
         }}
       >
-        Latest Stories
+        Project
       </h1>
       <div className="container content">
         <div className="columns">
@@ -37,18 +38,6 @@ export const ProjectPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
           </div>
         </div>
       </div>

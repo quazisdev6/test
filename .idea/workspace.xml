@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6729ea6-66b9-47b8-926e-4c320152f637" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectRoll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/projects/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/projects/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tags/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tags/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/project-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/project-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/service-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/service-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tags.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,35 +43,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="css" value="9" />
+          <entry key="css" value="12" />
           <entry key="html" value="3" />
-          <entry key="js" value="123" />
+          <entry key="js" value="142" />
           <entry key="json" value="6" />
           <entry key="md" value="40" />
           <entry key="png" value="2" />
           <entry key="sass" value="6" />
           <entry key="toml" value="1" />
-          <entry key="ts" value="1" />
+          <entry key="ts" value="2" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
+          <entry key="CSS" value="12" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="123" />
+          <entry key="JavaScript" value="142" />
           <entry key="PLAIN_TEXT" value="42" />
           <entry key="Sass" value="6" />
-          <entry key="TypeScript" value="1" />
+          <entry key="TypeScript" value="2" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="55" />
-          <entry key="js" value="1983" />
+          <entry key="css" value="152" />
+          <entry key="js" value="2747" />
           <entry key="md" value="106" />
           <entry key="sass" value="8" />
           <entry key="yml" value="689" />
@@ -70,8 +79,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="55" />
-          <entry key="JavaScript" value="1983" />
+          <entry key="CSS" value="152" />
+          <entry key="JavaScript" value="2747" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="Sass" value="8" />
           <entry key="YAML" value="689" />
@@ -82,10 +91,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/service-post.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/404.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -94,13 +103,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/project-post.js">
+        <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+            <state relative-caret-position="641">
+              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/nav/nav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -108,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/services/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="24" selection-end-line="36" />
+            <state relative-caret-position="440">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -118,10 +136,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/projects/index.js">
+        <entry file="file://$PROJECT_DIR$/src/styles/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="424">
+              <caret line="1631" column="3" selection-start-line="1631" selection-start-column="3" selection-end-line="1631" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ServiceRoll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/service-post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -130,63 +181,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/projects/test.md">
+        <entry file="file://$PROJECT_DIR$/src/templates/project-post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/project-name.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ServiceRoll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="90" column="27" selection-end-line="111" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProjectRoll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/services/2019-11-28-exceptional-service-provided.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Pricing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -195,23 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Link</find>
-      <find>blog-list</find>
-      <find>is-parent</find>
-      <find>content</find>
-      <find>latest stories</find>
-      <find>container</find>
-      <find>.blog-list-item</find>
-      <find>column</find>
-      <find>image</find>
-      <find>font</find>
-      <find>post</find>
-      <find>/blog</find>
-      <find>BlogRoll</find>
-      <find>'blog'</find>
-      <find>BlogIndexPage</find>
-      <find>blog</find>
-      <find>BlogPostTemplate</find>
       <find>servicer</find>
       <find>this week</find>
       <find>we expect</find>
@@ -225,6 +218,23 @@
       <find>ServicePostTemplate</find>
       <find>Servic</find>
       <find>Service</find>
+      <find>tag</find>
+      <find>latest stories</find>
+      <find>Search</find>
+      <find>mdi</find>
+      <find>There's not a page yet at</find>
+      <find>Dev404Page</find>
+      <find>Latest</find>
+      <find>&lt;Link</find>
+      <find>rgb(43, 44, 60)</find>
+      <find>Latest Stories</find>
+      <find>Latest St</find>
+      <find>Services</find>
+      <find>navbar</find>
+      <find>Search Tags</find>
+      <find>browse all tags</find>
+      <find>browse all</find>
+      <find>Tags</find>
     </findStrings>
     <replaceStrings>
       <replace>clientName</replace>
@@ -259,28 +269,36 @@
         <option value="$PROJECT_DIR$/src/components/clients/client-section.js" />
         <option value="$PROJECT_DIR$/src/components/team/team-section.js" />
         <option value="$PROJECT_DIR$/src/components/contact-us/contact-us.js" />
-        <option value="$PROJECT_DIR$/src/components/Layout.js" />
         <option value="$PROJECT_DIR$/src/components/all.sass" />
         <option value="$PROJECT_DIR$/src/styles/owl.theme.css" />
         <option value="$PROJECT_DIR$/src/components/BlogRoll.js" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
-        <option value="$PROJECT_DIR$/src/templates/tags.js" />
-        <option value="$PROJECT_DIR$/src/components/nav/nav.js" />
         <option value="$PROJECT_DIR$/src/pages/blog/index.js" />
         <option value="$PROJECT_DIR$/src/components/ServiceRoll.js" />
-        <option value="$PROJECT_DIR$/src/templates/service-post.js" />
         <option value="$PROJECT_DIR$/src/components/projects-section/project/client.js" />
         <option value="$PROJECT_DIR$/src/components/projects-section/client-section.js" />
         <option value="$PROJECT_DIR$/src/components/projects-section/project-section.js" />
         <option value="$PROJECT_DIR$/src/pages/index.md" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/pages/project-page/test-project.md" />
-        <option value="$PROJECT_DIR$/src/templates/project-post.js" />
         <option value="$PROJECT_DIR$/src/templates/project-name.js" />
         <option value="$PROJECT_DIR$/src/pages/projects/index.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectRoll.js" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/src/pages/projects/test.md" />
+        <option value="$PROJECT_DIR$/src/components/Layout.js" />
+        <option value="$PROJECT_DIR$/src/pages/tags/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/components/footer/footer.js" />
+        <option value="$PROJECT_DIR$/src/components/search/search.css" />
+        <option value="$PROJECT_DIR$/src/components/search/search.js" />
+        <option value="$PROJECT_DIR$/src/components/nav/nav.css" />
+        <option value="$PROJECT_DIR$/src/pages/404.js" />
+        <option value="$PROJECT_DIR$/src/components/nav/nav.js" />
+        <option value="$PROJECT_DIR$/src/pages/services/index.js" />
+        <option value="$PROJECT_DIR$/src/styles/global.css" />
+        <option value="$PROJECT_DIR$/src/templates/tags.js" />
+        <option value="$PROJECT_DIR$/src/templates/service-post.js" />
+        <option value="$PROJECT_DIR$/src/templates/project-post.js" />
       </list>
     </option>
   </component>
@@ -320,6 +338,17 @@
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,6 +362,34 @@
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="home-section" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -372,6 +429,13 @@
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="tags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,7 +462,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/index.js&#10;conf&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;proj&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/projects-section/project-section.js&#10;confi&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;service&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/ServiceRoll.js&#10;config.yml&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;nav&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/nav/nav.js&#10;tag&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;ta&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;tags&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;al.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/all.sass&#10;lay&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/Layout.js&#10;gatsb&#9;null&#9;null&#10;layou&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/Layout.js&#10;inde.m&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/about/index.md&#10;index.js&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/index.js&#10;contac&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;conta&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;teams&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;team&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;eam&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;client&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;sec&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;clien&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;ser&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;servic&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;con&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;serv&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;cms&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/cms/cms.js&#10;index.ht&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/blog/index.html&#10;config.y&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/admin/config.yml&#10;config.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/.dependabot/config.yml&#10;pack&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="servicero&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/ServiceRoll.js&#10;tags&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;nav&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/nav/nav.js&#10;404&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/404.js&#10;tag&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;tag.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;ser&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/ServiceRoll.js&#10;inde&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/index.js&#10;conf&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;proj&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/projects-section/project-section.js&#10;confi&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;service&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/ServiceRoll.js&#10;config.yml&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;ta&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/templates/tags.js&#10;al.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/all.sass&#10;lay&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/Layout.js&#10;gatsb&#9;null&#9;null&#10;layou&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/Layout.js&#10;inde.m&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/about/index.md&#10;index.js&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/pages/index.js&#10;contac&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;conta&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/contact-us/contact-us.js&#10;teams&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;team&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;eam&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/team/team-section.js&#10;client&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;sec&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;clien&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/clients/client-section.js&#10;servic&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;con&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/static/admin/config.yml&#10;serv&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/components/services/service-section.js&#10;cms&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/src/cms/cms.js&#10;index.ht&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/blog/index.html&#10;config.y&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/public/admin/config.yml&#10;config.&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/.dependabot/config.yml&#10;pack&#9;FILE&#9;file:///Users/quazisharar/Desktop/gatsby-starter-netlify-cms/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -452,12 +516,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38841000" />
+    <option name="totallyTimeSpent" value="45397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -471,7 +536,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30510205" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30510205" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -486,73 +551,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/clients/client/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/clients/client-section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="57" column="116" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="116" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/team/team-member/team-member.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/team/team-section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contact-us/contact-us.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/apple-touch-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/product-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/client-name.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/about-page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -604,11 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/owl.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -616,30 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="70" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -727,26 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/404.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/projects-section/project-section.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -798,86 +751,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project-name.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Pricing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ServiceRoll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="90" column="27" selection-end-line="111" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/service-post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project-post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/services/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="24" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectRoll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -900,8 +779,197 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/projects/test.md">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectRoll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1529">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tags/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cache/dev-404-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home-section/home-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/404.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/services/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="1631" column="3" selection-start-line="1631" selection-start-column="3" selection-end-line="1631" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ServiceRoll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/service-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project-name.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/project-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1633,6 +1633,10 @@ p {
         position: relative;
         padding: 121px 0 110px;
     }
+
+    .page-name {
+        margin-top: 3rem;
+    }
 }
 
 @media (min-width: 830px)  {
