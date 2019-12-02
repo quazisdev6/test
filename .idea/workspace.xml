@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6729ea6-66b9-47b8-926e-4c320152f637" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/service-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/service-section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/team/team-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/team/team-section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/ProductPagePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/preview-templates/ProductPagePreview.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +36,7 @@
           <entry key="css" value="19" />
           <entry key="html" value="3" />
           <entry key="jpg" value="5" />
-          <entry key="js" value="176" />
+          <entry key="js" value="180" />
           <entry key="json" value="6" />
           <entry key="md" value="41" />
           <entry key="png" value="13" />
@@ -53,7 +53,7 @@
           <entry key="HTML" value="3" />
           <entry key="Image" value="18" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="176" />
+          <entry key="JavaScript" value="180" />
           <entry key="PLAIN_TEXT" value="43" />
           <entry key="SVG" value="3" />
           <entry key="Sass" value="6" />
@@ -84,10 +84,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/services/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1149">
-              <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+            <state relative-caret-position="100">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -96,10 +96,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/projects-section/project-section.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-853">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state>
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -108,10 +107,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Features.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state>
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -120,10 +118,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/services/service-section.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-273">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state>
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -132,49 +129,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/team/team-section.js">
+        <entry file="file://$PROJECT_DIR$/src/templates/product-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="440">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/tutorials.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/safari-pinned-tab.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/img/jumbotron.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/footer/footer.js">
+        <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/home-section/home-section.js">
+        <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="39" column="119" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="119" />
+            <state relative-caret-position="260">
+              <caret line="13" column="30" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" column="6" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/ProductPagePreview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Testimonials.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -209,7 +214,6 @@
       <find>chemex</find>
       <find>apple-to</find>
       <find>link</find>
-      <find>&lt;Link</find>
       <find>Projects</find>
       <find>back</find>
       <find>sybh</find>
@@ -233,10 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Navbar.js" />
-        <option value="$PROJECT_DIR$/src/components/PreviewCompatibleImage.js" />
-        <option value="$PROJECT_DIR$/src/components/services/service/service.js" />
-        <option value="$PROJECT_DIR$/src/pages/service-page/index.md" />
         <option value="$PROJECT_DIR$/src/pages/service-page/index1.md" />
         <option value="$PROJECT_DIR$/src/templates/service-name.js" />
         <option value="$PROJECT_DIR$/src/pages/client-page/2019-11-26-canadian-tire.md" />
@@ -284,6 +284,10 @@
         <option value="$PROJECT_DIR$/src/pages/projects/index.js" />
         <option value="$PROJECT_DIR$/src/components/services/service-section.js" />
         <option value="$PROJECT_DIR$/src/components/team/team-section.js" />
+        <option value="$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js" />
+        <option value="$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js" />
+        <option value="$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js" />
+        <option value="$PROJECT_DIR$/src/cms/preview-templates/ProductPagePreview.js" />
       </list>
     </option>
   </component>
@@ -323,6 +327,11 @@
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name=".cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,6 +339,13 @@
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="preview-templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -416,33 +432,6 @@
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="project-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -517,7 +506,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55739000" />
+    <option name="totallyTimeSpent" value="55799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -551,43 +540,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.cache/dev-404-page.js" />
-    <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/project-name.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/product-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2433">
-          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/team-name.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/github-icon.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/blog-index.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -754,17 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/services/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="100">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -892,6 +837,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/img/jumbotron.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cache/async-requires.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cache/api-ssr-docs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Pricing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="6" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SiteMetadata.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/ProductPagePreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="30" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
