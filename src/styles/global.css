@@ -1647,6 +1647,10 @@ p {
     .page-name{
         margin-top: -2rem;
     }
+
+    .navbar-brand{
+        margin-left: 16rem;
+    }
 }
 
 @media screen and (max-width: 820px) and (min-width: 350px) {
