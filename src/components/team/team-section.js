@@ -19,12 +19,6 @@ export default (props) => (
             </div>
 
             <div className="row mt-5">
-              {/*{testArray.map((teamMember) => {*/}
-                {/*return (*/}
-                  {/*<TeamMember name={teamMember.name} title={teamMember.title} description={teamMember.description}/>*/}
-                {/*)*/}
-              {/*})}*/}
-
               <StaticQuery
                 query={graphql`
   {
@@ -71,11 +65,3 @@ export default (props) => (
         </div>
     </section>
 )
-
-
-// let testArray = [
-//   {name: "Test name", title: "Lorem IpsumLorem", description: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-//   {name: "Test name", title: "Lorem IpsumLorem", description: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-//   {name: "Test name", title: "Lorem IpsumLorem", description: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"},
-//   {name: "Test name", title: "Lorem IpsumLorem", description: "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"}
-// ]

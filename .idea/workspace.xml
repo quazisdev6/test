@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f6729ea6-66b9-47b8-926e-4c320152f637" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects-section/project-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects-section/project-section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/service-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/service-section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/team/team-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/team/team-section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,15 +33,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="css" value="18" />
+          <entry key="css" value="19" />
           <entry key="html" value="3" />
-          <entry key="jpg" value="4" />
-          <entry key="js" value="168" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="176" />
           <entry key="json" value="6" />
           <entry key="md" value="41" />
-          <entry key="png" value="12" />
+          <entry key="png" value="13" />
           <entry key="sass" value="6" />
-          <entry key="svg" value="2" />
+          <entry key="svg" value="3" />
           <entry key="toml" value="1" />
           <entry key="ts" value="2" />
           <entry key="yml" value="10" />
@@ -50,13 +49,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="18" />
+          <entry key="CSS" value="19" />
           <entry key="HTML" value="3" />
-          <entry key="Image" value="16" />
+          <entry key="Image" value="18" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="168" />
+          <entry key="JavaScript" value="176" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="SVG" value="2" />
+          <entry key="SVG" value="3" />
           <entry key="Sass" value="6" />
           <entry key="TypeScript" value="2" />
           <entry key="YAML" value="10" />
@@ -85,21 +84,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/home-section/home-section.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="39" column="119" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="119" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="1149">
               <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -109,48 +96,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/cms.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/services/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="1647" column="26" selection-start-line="1647" selection-start-column="26" selection-end-line="1647" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/projects-section/project-section.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-853">
               <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -160,24 +108,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.md">
+        <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="67">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/DCA31.png">
+        <entry file="file://$PROJECT_DIR$/src/components/services/service-section.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-273">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/team/team-section.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/img/tutorials.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/index-page.js">
+        <entry file="file://$PROJECT_DIR$/static/img/safari-pinned-tab.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/img/jumbotron.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/footer/footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="163" column="52" selection-start-line="163" selection-start-column="52" selection-end-line="163" selection-end-column="52" />
+            <state relative-caret-position="220">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home-section/home-section.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="39" column="119" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="119" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,7 +246,6 @@
         <option value="$PROJECT_DIR$/gatsby-browser.js" />
         <option value="$PROJECT_DIR$/src/components/clients/client/client.js" />
         <option value="$PROJECT_DIR$/src/components/team/team-member/team-member.js" />
-        <option value="$PROJECT_DIR$/src/components/team/team-section.js" />
         <option value="$PROJECT_DIR$/src/components/contact-us/contact-us.js" />
         <option value="$PROJECT_DIR$/src/components/all.sass" />
         <option value="$PROJECT_DIR$/src/styles/owl.theme.css" />
@@ -258,7 +257,6 @@
         <option value="$PROJECT_DIR$/src/components/projects-section/client-section.js" />
         <option value="$PROJECT_DIR$/src/pages/project-page/test-project.md" />
         <option value="$PROJECT_DIR$/src/templates/project-name.js" />
-        <option value="$PROJECT_DIR$/src/pages/projects/index.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectRoll.js" />
         <option value="$PROJECT_DIR$/src/pages/projects/test.md" />
         <option value="$PROJECT_DIR$/src/pages/tags/index.js" />
@@ -274,7 +272,6 @@
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/src/components/nav/nav.css" />
         <option value="$PROJECT_DIR$/src/components/clients/client-section.js" />
-        <option value="$PROJECT_DIR$/src/components/services/service-section.js" />
         <option value="$PROJECT_DIR$/src/templates/service-post.js" />
         <option value="$PROJECT_DIR$/src/pages/index.md" />
         <option value="$PROJECT_DIR$/src/templates/index-page.js" />
@@ -284,6 +281,9 @@
         <option value="$PROJECT_DIR$/src/pages/services/index.js" />
         <option value="$PROJECT_DIR$/src/components/projects-section/project-section.js" />
         <option value="$PROJECT_DIR$/src/components/nav/nav.js" />
+        <option value="$PROJECT_DIR$/src/pages/projects/index.js" />
+        <option value="$PROJECT_DIR$/src/components/services/service-section.js" />
+        <option value="$PROJECT_DIR$/src/components/team/team-section.js" />
       </list>
     </option>
   </component>
@@ -342,6 +342,34 @@
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="contact-us" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="home-section" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="nav" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,6 +383,27 @@
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,6 +411,20 @@
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="project-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -392,12 +455,6 @@
               <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-netlify-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -460,13 +517,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54888000" />
+    <option name="totallyTimeSpent" value="55739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -479,7 +535,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30510205" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30510205" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -495,64 +551,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/services/2019-11-28-exceptional-service-provided.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/projects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/projects/test.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tags/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.cache/dev-404-page.js" />
     <entry file="file://$PROJECT_DIR$/src/templates/tags.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,16 +606,6 @@
     <entry file="file://$PROJECT_DIR$/static/img/favicon-16x16.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footer/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/404.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -664,23 +652,6 @@
     <entry file="file://$PROJECT_DIR$/src/styles/owl.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1346" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/services/service-section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="59" column="16" selection-start-line="53" selection-start-column="10" selection-end-line="59" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
@@ -742,16 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/clients/client-section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/home-jumbotron.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -766,16 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home-section/home-section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="39" column="119" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="119" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,10 +778,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects-section/project-section.js">
+    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        <state relative-caret-position="594">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/projects/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/clients/client-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contact-us/contact-us.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home-section/home-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="119" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="119" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -839,13 +836,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="1149">
           <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/projects-section/project-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/services/service-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/team/team-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/tutorials.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/safari-pinned-tab.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/jumbotron.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

@@ -26,9 +26,7 @@ export default class ProjectIndexPage extends React.Component {
         </div>
         <section className="section">
           <div className="container">
-            {/*<div className="content">*/}
             <ProjectRoll />
-            {/*</div>*/}
           </div>
         </section>
       </Layout>
